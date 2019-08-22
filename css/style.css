@@ -148,11 +148,7 @@ img {
 
 
 
-img:hover {
-	-webkit-transform: scaleX(-1);
-	transform: scaleX(-1);
 
-  }
 
 
   a {
@@ -162,6 +158,18 @@ img:hover {
 
 }
 
+/* Hover-Blur */
+
+.hov:hover {
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+
+  }
+
+.blur:hover{
+  -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
+  filter: blur(5px);
+}
 
 
   
